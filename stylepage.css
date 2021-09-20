@@ -1,0 +1,20 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+/*header style*/
+
+.text-header{
+    margin-left: 8rem;
+}
+.text-header h1 {
+    color: #1a0654;
+}
+
+.text-header h4 {
+    color: dimgrey;
+    font-weight: normal;
+}
+
+#rang-user {
+    width: 80%;
+}

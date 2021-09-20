@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+}
+.container div {
+    /*padding: 3rem 2rem 5rem 3rem;*/
+    margin: 0.7rem 1rem 0.7rem 1rem ;
+
+}
+.container h3 {
+    font-weight: unset;
+    color: #5f5962;
+}
+.container h4 {
+    font-weight: normal;
+    color: #1a0654;
+}
+.container h1 {
+    font-size: 2rem;
+    color: #1a0654;
+}
+.card-intro {
+    /*border: 0.07rem silver solid;*/
+    border-radius: 1rem;
+    flex: 1;
+}
+.card-base {
+    /*border: 0.07rem silver solid;*/
+    border-radius: 1rem;
+    flex: 1
+}
+.card-popular{
+    border: 0.07rem silver solid;
+    border-radius: 1rem;
+    background-color: #460e7d;
+    color: #b8a5bb;
+    flex: 1
+}
+.card-enterprise {
+    border: 0.01rem gainsboro solid;
+    border-radius: 1rem;
+    flex: 1
+}
+.container span {
+    margin-right: 1rem;
+}
+button {
+    /*width: 80%;*/
+    height: 9vh;
+    background-color: white;
+    border: 0.03rem #1a0654 solid;
+    border-radius: 0.50rem;
+    margin: 1.2rem ;
+    color: #460e7d;
+    font-weight: bolder;
+    /*margin: 1rem 0rem 1rem 2rem;*/
+}
+.content-card-intro {
+    display: flex;
+    flex-direction: column;
+
+}
+.content-card-base {
+    display: flex;
+    flex-direction: column;
+
+}
+.content-card-popular {
+    display: flex;
+    flex-direction: column;
+}
+.content-card-enterprise {
+    display: flex;
+    flex-direction: column;
+}
+.content-line {
+    display: flex;
+}
+.container h4 {
+    margin: 0 1rem 2rem 1rem;
+}
+button:hover {
+    color: #dddddd;
+    background-color: #460e7d;
+
+}
