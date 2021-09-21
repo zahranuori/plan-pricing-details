@@ -4,19 +4,61 @@
         flex-wrap: wrap;
     }
   .card-intro {
-      display: flex;
-      width: 600px;
+      flex: 1;
+
   }
   .card-base {
-     display: flex;
-      width: 600px;
+      flex: 1;
   }
   .card-popular {
-      display: flex;
-      width: 600px;
+      flex: 1;
   }
   .card-enterprise {
-      display: flex;
-      width: 600px;
+      flex: 1;
   }
+
+
+    button:hover {
+        color: #dddddd;
+        background-color: #460e7d;
+
+    }
+    .button-popular:hover {
+        color: #1a0654;
+        background-color: #deb8f7;
+
+    }
+}
+
+@media screen and (max-width: 570px){
+    .button-Sliding {
+        display: flex;
+        float: right;
+        margin: 0.5rem 5rem 0.2rem 0.2rem;
+    }
+    .text-header{
+        margin-left: 1rem;
+    }
+    .text-header h1 {
+        color: #1a0654;
+    }
+
+    .text-header h4 {
+        color: dimgrey;
+        font-weight: normal;
+    }
+
+    #rang-user {
+        width: 80%;
+    }
+    button:hover {
+        color: #dddddd;
+        background-color: #460e7d;
+
+    }
+    .button-popular:hover {
+        color: #1a0654;
+        background-color: #deb8f7;
+
+    }
 }
