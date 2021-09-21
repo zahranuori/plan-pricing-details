@@ -8,10 +8,12 @@
     border: 0.01rem #dedede solid;
     transform: perspective(500px)translateZ(0.09rem)
     rotateY(2deg) rotateX(1deg);
+
 }
 .card-popular:hover {
     transform: perspective(500px)translateZ(0.09rem)
     rotateY(2deg) rotateX(1deg);
+    background-color: #aa68c2;
 }
 
 .card-enterprise:hover{
@@ -22,5 +24,10 @@
 button:hover {
     color: #dddddd;
     background-color: #460e7d;
+
+}
+.button-popular:hover {
+    color: #1a0654;
+    background-color: #deb8f7;
 
 }

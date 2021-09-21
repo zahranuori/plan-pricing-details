@@ -8,6 +8,10 @@
     margin: 0.7rem 1rem 0.7rem 1rem ;
 
 }
+.container-card span {
+    margin-left: 1rem;
+
+}
 .container-card h3 {
     font-weight: unset;
     color: #5f5962;
@@ -34,9 +38,19 @@
     border: 0.07rem silver solid;
     border-radius: 1rem;
     background-color: #460e7d;
-    color: #b8a5bb;
+    color: #ebebeb;
     flex: 1
 }
+/*.h1-popular{*/
+/*    font-size: 2rem;*/
+/*    font-weight: bolder;*/
+/*    color: #dddddd;*/
+/*}*/
+/*.span-popular {*/
+/*    font-size: 1rem;*/
+/*    font-weight: lighter;*/
+/*    color: #777777;*/
+/*}*/
 .card-enterprise {
     border: 0.01rem gainsboro solid;
     border-radius: 1rem;

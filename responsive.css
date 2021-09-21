@@ -1,0 +1,22 @@
+@media screen and (max-width: 1280px){
+    .container-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+  .card-intro {
+      display: flex;
+      width: 600px;
+  }
+  .card-base {
+     display: flex;
+      width: 600px;
+  }
+  .card-popular {
+      display: flex;
+      width: 600px;
+  }
+  .card-enterprise {
+      display: flex;
+      width: 600px;
+  }
+}

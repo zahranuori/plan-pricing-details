@@ -1,5 +1,9 @@
-html {
+html, body {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 98vw;
+
+
 }
 /*header style*/
 .button-Sliding {
@@ -22,6 +26,9 @@ html {
 #rang-user {
     width: 80%;
 }
+
+/*style button sliding*/
+
 .switch {
     position: relative;
     display: inline-block;
